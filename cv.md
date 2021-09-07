@@ -61,3 +61,15 @@ function arithmetic(a, b, operator) {
 B1
 
 ---
+
+## Completed courses:
+
+1. [WEB-разработчик 2021](https://www.udemy.com/course/webdeveloper/)
+
+2. [Полный курс по JavaScript + React - с нуля до результата](https://www.udemy.com/course/javascript_full/)
+
+3. [Практический JavaScript (Продвинутый уровень)](https://www.udemy.com/course/javascript_practice/)
+
+4. [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
+
+5. [Understanding TypeScript - 2021 Edition](https://www.udemy.com/course/understanding-typescript/)
