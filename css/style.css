@@ -173,6 +173,10 @@ body {
         transition: 0.5s all; }
         .works__portfolio-item img:hover {
           transform: scale(1.1); }
+      .works__portfolio-item p {
+        margin-top: 12px;
+        font-size: 13px;
+        text-align: center; }
 
 .hljs {
   border-radius: 10px !important; }
