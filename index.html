@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/base16/one-light.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="js/script.js" defer></script>
+    <title>rsschol cv</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav" id="nav">
+            <div class="container">
+                <ul class="nav__menu">
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#works" class="nav__link">Works</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contacts" class="nav__link">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__wrapper">
+                    <div class="about__image">
+                        <img src="img/main_photo.jpg" alt="photo">
+                    </div>
+                    <div class="about__info">
+                        <h2 class="title about__title">About me</h2>
+                        <h1 class="subtitle about__subtitle">My name is Alisher</h1>
+                        <p class="about__p">I am 27 years old. I was born and grew up in Kazakhstan. I attended the St.
+                            Petersburg State Transport University and received my master’s degree in mechanical
+                            engineering,
+                            but i am also in love with frontend development. I want to obtain a full time job working as
+                            a
+                            frontend developer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="experience__title title title--center">Experience</h2>
+                <div class="experience__wrapper">
+                    <div class="experience__courses">
+                        <h3 class="experience__name">Courses</h3>
+                        <div class="experience__item">
+                            <div class="experience__item-icon">
+                                <img src="icons/courses.svg" alt="courses">
+                            </div>
+                            <div class="experience__info">
+                                <h4 class="experience__item-title">Udemy. Advanced CSS and Sass</h4>
+                                <div class="experience__item-descr">Jonas Schmedtmann</div>
+                            </div>
+                        </div>
+
+                        <div class="experience__item">
+                            <div class="experience__item-icon">
+                                <img src="icons/courses.svg" alt="courses">
+                            </div>
+                            <div class="experience__info">
+                                <h4 class="experience__item-title">The Complete JavaScript Course 2021: From Zero to
+                                    Expert!
+                                </h4>
+                                <div class="experience__item-descr">Jonas Schmedtmann</div>
+                            </div>
+                        </div>
+
+                        <div class="experience__item">
+                            <div class="experience__item-icon">
+                                <img src="icons/courses.svg" alt="courses">
+                            </div>
+                            <div class="experience__info">
+                                <h4 class="experience__item-title">Udemy. React - The Complete Guide</h4>
+                                <div class="experience__item-descr">Maximilian Schwarzmüller</div>
+                            </div>
+                        </div>
+
+                        <div class="experience__item">
+                            <div class="experience__item-icon">
+                                <img src="icons/courses.svg" alt="courses">
+                            </div>
+                            <div class="experience__info">
+                                <h4 class="experience__item-title">Understanding TypeScript </h4>
+                                <div class="experience__item-descr">Maximilian Schwarzmüller</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience__university">
+                        <h3 class="experience__name">University</h3>
+                        <div class="experience__item">
+                            <div class="experience__item-icon">
+                                <img src="icons/university.svg" alt="university">
+                            </div>
+                            <div class="experience__info">
+                                <h4 class="experience__item-title">Saint Petersburg State Transport University</h4>
+                                <div class="experience__item-descr">Master's degree (2011-2018) </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="skills__title title title--center">My skills</h2>
+                <ul class="list__items">
+                    <li class="list__item">HTML5</li>
+                    <li class="list__item">CCS3</li>
+                    <li class="list__item">JavaScript</li>
+                    <li class="list__item">React</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="languages">
+            <div class="container">
+                <h2 class="languages__title title title--center">Languages</h2>
+                <ul class="list__items">
+                    <li class="list__item">English (B1)</li>
+                    <li class="list__item">Russian (native)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="works" class="works">
+            <div class="container">
+                <h2 class="works__title title title--center">My works</h2>
+                <div class="works__code">
+                    <pre><code class="javascript">
+    function myLanguages(results) {
+      return Object.entries(results)
+        .filter((i) => i[1] >= 60)
+        .sort((a, b) => b[1] - a[1])
+        .map((i) => i[0]);
+    }  
+                    </code></pre>
+                </div>
+
+                <div class="works__portfolio">
+                    <div class="works__portfolio-item">
+                        <a href="https://fifax23.github.io/pig-game/" target="_blank">
+                            <img src="img/piggame.jpg" alt="piggame">
+                        </a>
+                    </div>
+
+                    <div class="works__portfolio-item">
+                        <a href="https://fifax23.github.io/guess-number-game/" target="_blank">
+                            <img src="img/guessnumber.jpg" alt="guess number game">
+                        </a>
+                    </div>
+
+                    <div class="works__portfolio-item">
+                        <a href="https://fifax23.github.io/EdgeLedger/" target="_blank">
+                            <img src="img/edge.jpg" alt="edgeledger">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <h2 class="works__title title title--center">Contacts</h2>
+                <div class="contacts__wrapper">
+                    <ul class="list__items">
+                        <li class="list__item">Phone: <a href="tel:+77750695621">+7775 069-56-21</a></li>
+                        <li class="list__item">E-mail: <a href="mailto:galaxymexx@gmail.com">galaxymexx@gmail.com</a>
+                        </li>
+                    </ul>
+                    <div class="contacts__social">
+                        <a href="https://t.me/fifax23" class="contacts__link">
+                            <img src="icons/contacts/telegram.svg" alt="telegram">
+                        </a>
+                        <a href="https://www.instagram.com/fifax23" class="contacts__link">
+                            <img src="icons/contacts/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="https://www.facebook.com/alisher.tashbulatov/" class="contacts__link">
+                            <img src="icons/contacts/facebook.svg" alt="facebook">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button id="scrollToTop" class="btn btn-top" type="button">Up</button>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__info">
+                <a href="https://rs.school/js/" class="footer__rs" target="_blank">
+                    <img src="icons/rs_school.svg" alt="rs-school">
+                </a>
+                <a href="https://github.com/jcdenton23" class="footer__git" target="_blank">
+                    <h5>GitHub</h5>
+                </a>
+                <div>2021</div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
